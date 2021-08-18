@@ -1,0 +1,6 @@
+__pycache__/
+/app/log/*
+/app/movies/*
+/app/text/*
+
+!.gitkeep

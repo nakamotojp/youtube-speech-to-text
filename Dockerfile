@@ -7,6 +7,6 @@ COPY app/ /app
 
 RUN apt-get update && \
   # ffmpegのインストールが必要
-  apt-get -y install ffmpeg libavcodec-extra && \
+  apt-get -y install flac ffmpeg libavcodec-extra && \
   pip install --upgrade pip --no-cache-dir && \
   pip install -r requirements.txt --no-cache-dir
